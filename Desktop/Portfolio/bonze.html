@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+        <nav>
+            <a href="#" onclick="showSection('home')">Home</a>
+            <a href="#" onclick="showSection('interests')">Interests</a>
+            <a href="#" onclick="showSection('projects')">Projects</a>
+            <a href="#" onclick="showSection('about')">About me</a>
+        </nav>
+    
+        <section id="home" style="display: block;">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello, my name is Christian.</p>
+        </section>
+
+        <section id="interests" style="display: none;">
+            <h2>My Interests</h2>
+        
+            <p>I am interested in philosophy, culture, society and politics.</p>
+        
+            <p>I am particularly interested in intercultural philosophy and African philosophy.</p>
+        </section>
+
+        <section id="projects" style="display: none;">
+            <h2>My Projects</h2>
+        
+            <h3>Thinking Diversity</h3>
+            <p>
+                An exploration of diversity in thought, human identity and the idea that
+                human beings should not be reduced to their appearance.
+            </p>
+        </section>
+
+        <section id="about" style="display: none;">
+            <h2>About me</h2>
+        
+            <img src="christian.jpg" alt="Portrait of Christian" width="200">
+        
+            <p>I am Christian, a theologian interested in philosophy, culture and society.</p>
+        </section>
+
+
+<script>
+    function showSection(sectionId) {
+        document.querySelectorAll("section").forEach(function (section) {
+            section.style.display = "none";
+        });
+
+        document.getElementById(sectionId).style.display = "block";
+    }
+</script>
+    
+</body>
+    
+</html>
