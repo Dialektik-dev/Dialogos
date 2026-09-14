@@ -5,13 +5,11 @@ body {
     margin: 0 auto;
     padding: 40px;
 
-    {
    font-family: 'Montserrat', sans-serif;
-}
 
     color: #545454;
     font-size: 1.2em;
-    background-color: #85e291;
+    background-color:#eef5f7;
 }
      p{
         line-height: 1.4em;
@@ -23,19 +21,18 @@ h1, h2, h3 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 5px;
-
+    letter-spacing: 2px;
 }
 
 nav ul {
     list-style-type: none;
     display: block;
-    background-color:red;
+    background-color:#3f6f8f;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     padding: 20px;
-    border: 5px solid #4d0707;
+    border: 5px dotted #2f536b;
     text-decoration: none;
     margin-bottom: 15px;
 
@@ -46,6 +43,7 @@ article {
     width: 800px;
     padding: 20px;
     background-color: white;
+    color: #222222;
 }
 
 h1 {
