@@ -135,9 +135,9 @@ h3 {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     color: #85b5e2;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
     article p {
