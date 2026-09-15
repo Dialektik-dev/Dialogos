@@ -63,17 +63,13 @@ p {
     article 
     { position: relative;
 } 
+    
     article::before {
     content: "DIALOGOS BLOG";
-    position: absolute;
-    left: -35px;
-    top: 120px;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
+    display: block;
     color: #85b5e2;
     font-size: 12px;
-    letter-spacing: 2px;
     font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
-}
-
