@@ -75,10 +75,6 @@ article::after {
     background-color: #85b5e2;
 }
 
-p {
-    color: #000000 !important;
-}
-
 article::before {
     content: "";
     position: absolute;
@@ -89,13 +85,3 @@ article::before {
     background-color: #85b5e2;
 }
 
-
-article::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -30px;
-    width: 2px;
-    height: 100%;
-    background-color: #85b5e2;
-}
