@@ -109,7 +109,7 @@ body {
 article header img {
     display: block;
     margin: 20px auto;
-}
+    border-radius: 8px;
 
 article header p {
     text-align: center;
