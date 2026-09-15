@@ -65,15 +65,12 @@ p {
 } 
     
     article::before { 
-        content: "DIALOGOS"; 
-        position: absolute; 
-        left: -35px; 
-        top: 120px; 
-        writing-mode: vertical-rl; 
-        transform: rotate(180deg); 
-        color: #85b5e2; 
-        font-size: 12px; 
-        letter-spacing: 3px; 
-        font-weight: bold;
+        content: "DIALOGOS";
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
 }
 
