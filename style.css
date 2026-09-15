@@ -83,15 +83,19 @@ article::before {
     content: "";
     position: absolute;
     top: 0;
-
+    left: -30px;
+    width: 2px;
+    height: 100%;
+    background-color: #85b5e2;
+}
 
 
 article::before {
-    content: "DIALOGOS BLOG";
-    display: block;
-    color: #85b5e2;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 2px;
+    height: 100%;
+    background-color: #85b5e2;
 }
