@@ -112,3 +112,10 @@ article header img {
     margin: 20px auto;
 }
 
+article header p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666666 !important;
+    margin: 5px 0;
+}
+
