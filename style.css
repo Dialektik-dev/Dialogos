@@ -30,14 +30,12 @@ h1, h2, h3 {
 
 nav ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+    display: block;
     background-color: #3f6f8f;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    padding: 15px;
+    padding: 20px;
     border: 2px solid #2f536b;
     margin-bottom: 15px;
 }
