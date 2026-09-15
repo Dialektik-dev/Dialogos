@@ -67,7 +67,7 @@ p {
     article::before { 
         content: "DIALOGOS"; 
         position: absolute; 
-        left: -55px; 
+        left: -35px; 
         top: 120px; 
         writing-mode: vertical-rl; 
         transform: rotate(180deg); 
