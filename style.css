@@ -40,11 +40,14 @@ nav ul {
 
 
 article {
-    width: 800px;
-    padding: 20px;
-    background-color: white;
-    letter-spacing: 0.2px;
-    line-height: 1.6;
+    article { 
+    width: 800px; 
+    margin: 0 auto;
+    padding: 20px; 
+    background-color: white; 
+    color: #222222;
+    border-left: 2px solid #85b5e2;
+    border-right: 2px solid #85b5e2;
 }
 
 h1 {
