@@ -131,7 +131,7 @@ h3 {
 .side-label {
     position: absolute;
     left: calc(50% - 470px);
-    top: 300px;
+    top: 250px;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     color: #85b5e2;
