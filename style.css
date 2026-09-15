@@ -144,3 +144,13 @@ h3 {
     margin-bottom: 20px;
 }
 
+.article-end {
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 1px solid #85b5e2;
+    text-align: center;
+    color: #85b5e2;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+
