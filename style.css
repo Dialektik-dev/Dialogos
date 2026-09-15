@@ -60,15 +60,20 @@ p {
     color: #000000 !important;
 }
 
-    article { position: relative; } article::before { content: "DIALOGOS"; 
-                                                     position: absolute; 
-                                                     left: -55px; 
-                                                     top: 120px; 
-                                                     writing-mode: vertical-rl; 
-                                                     transform: rotate(180deg); 
-                                                     color: #85b5e2; 
-                                                     font-size: 12px; 
-                                                     letter-spacing: 3px; 
-                                                     font-weight: bold;
-                                                    }
+    article 
+    { position: relative;
+} 
+    
+    article::before { 
+        content: "DIALOGOS"; 
+        position: absolute; 
+        left: -55px; 
+        top: 120px; 
+        writing-mode: vertical-rl; 
+        transform: rotate(180deg); 
+        color: #85b5e2; 
+        font-size: 12px; 
+        letter-spacing: 3px; 
+        font-weight: bold;
+}
 
