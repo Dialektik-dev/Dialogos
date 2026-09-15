@@ -79,6 +79,12 @@ p {
     color: #000000 !important;
 }
 
+article::before {
+    content: "";
+    position: absolute;
+    top: 0;
+
+
 
 article::before {
     content: "DIALOGOS BLOG";
